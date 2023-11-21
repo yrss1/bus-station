@@ -19,39 +19,39 @@
 <div class="back-img">
     <div class="navbar">
         <div class="navbar-left">
-            <a href="index.html">
+            <a href="{{ route('main.index') }}">
                 <img src="images/black-icon-transformed.png" />
                 <div>e-bus</div>
             </a>
         </div>
         <div class="navbar-right">
             <div class="schedule">
-                <a href="destinations.html">
+                <a href="{{ route('destination.index')  }}">
                     <img src="icons/marker.png" />
                     <div>Destinations</div>
                 </a>
             </div>
             <div class="rules">
-                <a href="rules.html">
+                <a href="{{ route('rules.index') }}">
                     <img src="icons/document.png" />
                     <div>Rules</div>
                 </a>
             </div>
             <div class="contacts">
-                <a href="contacts.html">
+                <a href="{{ route('contacts.index') }}">
                     <img src="icons/user.png" />
                     <div>Contacts</div>
                 </a>
             </div>
             <div class="rules">
-                <a href="help.html">
+                <a href="{{ route('help.index') }}">
                     <img src="icons/interrogation.png" />
                     <div>Help</div>
                 </a>
             </div>
-            <div class="sign-in">
-                <a href="sign-in.html">Sign-in</a>
-            </div>
+{{--            <div class="sign-in">--}}
+{{--                <a href="{{ route('register') }}">Sign-in</a>--}}
+{{--            </div>--}}
         </div>
     </div>
 </div>

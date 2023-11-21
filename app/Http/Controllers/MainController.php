@@ -10,4 +10,26 @@ class MainController extends Controller
     {
         return view('main');
     }
+    public function rules()
+    {
+        return view('rules');
+    }
+    public function help()
+    {
+        return view('help');
+    }
+    public function contacts()
+    {
+        return view('contacts');
+    }
+
+    public function select()
+    {
+//
+    }
+    public function warning()
+    {
+        return view('warning');
+    }
+
 }
